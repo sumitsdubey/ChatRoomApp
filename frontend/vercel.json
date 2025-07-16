@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "http://vaad.ap-south-1.elasticbeanstalk.com/$1"
+      "source": "/(.*)",
+      "destination": "http://vaad.ap-south-1.elasticbeanstalk.com"
     }
   ]
 }
