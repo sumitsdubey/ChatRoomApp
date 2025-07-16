@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-export const baseUrl = "http://localhost:8080"
+export const baseUrl = "http://vaad.ap-south-1.elasticbeanstalk.com"
 export const httpClient = axios.create(
     {
         baseURL: baseUrl
